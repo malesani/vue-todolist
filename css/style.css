@@ -1,0 +1,73 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.logo{
+  width: 350px;
+  padding: 30px;
+  margin: auto;
+}
+
+.logo img{
+  width: 100%;
+}
+
+h4{
+  font-size: 35px ;
+  width: 30%;
+  text-align: center;
+  padding-bottom: 30px;
+  margin: auto;
+  color: red;
+}
+
+.interaction{
+  text-align: center;
+  margin: auto;
+  padding-bottom: 40px;
+}
+
+.interaction input,button{
+  font-size: 30px;
+  margin: 5px;
+}
+
+.list{
+  width: 60% ;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: rgb(230, 230, 230);
+
+}
+
+.list ul{
+  width: 100%;
+  list-style: none;
+  
+}
+
+.list ul li{
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  padding: 10px 0px;
+  border-bottom: solid 0.5px grey;
+  cursor: pointer;
+}
+
+.list ul .checked{
+  color: rgb(165, 165, 165);
+  text-decoration:line-through black;
+}
+
+.fa-times{
+  color: red;
+  text-decoration: none;
+}
